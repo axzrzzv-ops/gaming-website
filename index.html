@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Website</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #111;
+            color: white;
+        }
+
+        header {
+            background: #1a1a1a;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #333;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            margin-top: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        nav a:hover {
+            color: #00ff88;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .hero h2 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        .game-box {
+            max-width: 1100px;
+            margin: 0 auto 50px;
+            padding: 20px;
+        }
+
+        .game-card {
+            background: #1c1c1c;
+            border: 1px solid #333;
+            border-radius: 12px;
+            padding: 25px;
+            text-align: center;
+        }
+
+        .play-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 14px 30px;
+            background: #00cc70;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        .play-button:hover {
+            background: #00ff88;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: #1a1a1a;
+            color: #888;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🎮 My Gaming Website</h1>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#games">Games</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Welcome to My Gaming Website</h2>
+        <p>Play games directly from your browser.</p>
+    </section>
+
+    <section class="game-box" id="games">
+        <div class="game-card">
+            <h2>1v1 LOL Reloaded</h2>
+            <p>Click below to play.</p>
+
+            <a class="play-button"
+               href="https://1v1lolreloaded.com/"
+               target="_blank">
+                PLAY NOW
+            </a>
+        </div>
+    </section>
+
+    <section class="game-box" id="about">
+        <div class="game-card">
+            <h2>About</h2>
+            <p>Welcome to my gaming website!</p>
+        </div>
+    </section>
+
+    <footer>
+        © 2026 My Gaming Website
+    </footer>
+
+</body>
+</html>
